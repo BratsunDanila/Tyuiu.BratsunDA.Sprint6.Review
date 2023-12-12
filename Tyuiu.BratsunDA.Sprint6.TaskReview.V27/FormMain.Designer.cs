@@ -159,6 +159,7 @@ namespace Tyuiu.BratsunDA.Sprint6.TaskReview.V27
             // 
             // textBoxL_BDA
             // 
+            this.textBoxL_BDA.Enabled = false;
             this.textBoxL_BDA.Location = new System.Drawing.Point(318, 106);
             this.textBoxL_BDA.Name = "textBoxL_BDA";
             this.textBoxL_BDA.Size = new System.Drawing.Size(31, 20);
@@ -166,6 +167,7 @@ namespace Tyuiu.BratsunDA.Sprint6.TaskReview.V27
             // 
             // textBoxK_BDA
             // 
+            this.textBoxK_BDA.Enabled = false;
             this.textBoxK_BDA.Location = new System.Drawing.Point(283, 106);
             this.textBoxK_BDA.Name = "textBoxK_BDA";
             this.textBoxK_BDA.Size = new System.Drawing.Size(29, 20);
@@ -183,6 +185,7 @@ namespace Tyuiu.BratsunDA.Sprint6.TaskReview.V27
             // 
             // textBoxNumStr_BDA
             // 
+            this.textBoxNumStr_BDA.Enabled = false;
             this.textBoxNumStr_BDA.Location = new System.Drawing.Point(54, 106);
             this.textBoxNumStr_BDA.Name = "textBoxNumStr_BDA";
             this.textBoxNumStr_BDA.Size = new System.Drawing.Size(66, 20);

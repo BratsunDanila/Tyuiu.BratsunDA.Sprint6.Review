@@ -63,6 +63,10 @@ namespace Tyuiu.BratsunDA.Sprint6.TaskReview.V27
                 MessageBox.Show("Введены неверные данные", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             buttonResult_BDA.Enabled = true;
+            textBoxNumStr_BDA.Enabled = true;
+            textBoxK_BDA.Enabled = true;
+            textBoxL_BDA.Enabled = true;
+
 
 
         }
@@ -85,7 +89,14 @@ namespace Tyuiu.BratsunDA.Sprint6.TaskReview.V27
                         mx[rows, col] = Convert.ToInt32(dataGridViewMtrx_BDA.Rows[rows].Cells[col].Value.ToString());
                     }
                 }
-                textBoxResult_BDA.Text = Convert.ToString(ds.GetSum(mx,r,k,l));
+                if (k <= l)
+                {
+                    textBoxResult_BDA.Text = Convert.ToString(ds.GetSum(mx, r, k, l));
+                }
+                else
+                {
+                    MessageBox.Show("Введены неверные данные", "Ошибка", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
             catch
             {
