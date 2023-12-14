@@ -18,7 +18,7 @@ namespace Tyuiu.BratsunDA.Sprint6.TaskReview.V27.Lib
                 {
                     if (j%2==0)
                     {
-                        mtrx[i, j] = rnd.Next(n1, n2-1);
+                        mtrx[i, j] = rnd.Next(n1, n2);
                         if (mtrx[i, j] %2!=0)
                         {
                             mtrx[i, j] += 1;
@@ -26,7 +26,7 @@ namespace Tyuiu.BratsunDA.Sprint6.TaskReview.V27.Lib
                     }
                     else
                     {
-                        mtrx[i, j] = rnd.Next(n1, n2-1);
+                        mtrx[i, j] = rnd.Next(n1, n2);
                         if (mtrx[i, j]%2==0)
                         {
                             mtrx[i, j] += 1;
