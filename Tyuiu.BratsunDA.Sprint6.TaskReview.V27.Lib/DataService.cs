@@ -16,7 +16,7 @@ namespace Tyuiu.BratsunDA.Sprint6.TaskReview.V27.Lib
             {
                 for (int j = 0; j < m; j++)
                 {
-                    if (j%2==0)
+                    if (i%2==0)
                     {
                         mtrx[i, j] = rnd.Next(n1, n2);
                         if (mtrx[i, j] %2!=0)
